@@ -18,9 +18,9 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetAxis("Vertical") != 0)
         {
-            rbd2.MovePosition(new Vector2(rbd2.position.x , Mathf.Clamp(rbd2.position.y + speedPlayer * Time.deltaTime * Input.GetAxis("Vertical"), -12, 12)));
+            rbd2.MovePosition(new Vector2(rbd2.position.x , Mathf.Clamp(rbd2.position.y + speedPlayer * Time.deltaTime * Input.GetAxis("Vertical"), -21.5f, 21.5f)));
         }
-        if (Input.GetAxis("Jump") != 0)
+        if (Input.GetAxis("Fire1") != 0)
         {
             ShootBullet();
         }

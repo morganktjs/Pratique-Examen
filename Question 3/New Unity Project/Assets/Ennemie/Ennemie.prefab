@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4766242301791714230}
   - component: {fileID: 4766242301791714229}
   - component: {fileID: 4214835297863521604}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ennemie
   m_TagString: Ennemie
   m_Icon: {fileID: 0}
@@ -27,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4766242301791714218}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 13.75, y: 6.59, z: -7.46}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &4766242301791714219
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -144,5 +144,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ennemieSpeed: 40
+  audioMusic: {fileID: 11400000, guid: be704e05c44fbc94db891287cae23517, type: 2}
   deathParticle: {fileID: 6381944587575512220, guid: 55699a34ad8114644826c2e0d42d4a49,
     type: 3}
